@@ -1,0 +1,84 @@
+# =============================
+# KiCad Project .gitignore
+# =============================
+
+# Ignore user-specific and backup files
+*.bak
+*.bck
+*.kicad_prl
+*.tmp
+*.autosave
+*.lock
+
+# Ignore backup copies created by KiCad
+*.sch-bak
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*-backups/
+
+# Ignore simulation and cache files
+*.net
+*.xml
+*.cache.lib
+*.dsn
+*.ses
+*.spice
+
+# Ignore generated fabrication and output files
+*.gbr
+*.drl
+*.zip
+*.tar
+*.tar.gz
+*.gbl
+*.gtl
+*.gts
+*.gbo
+*.gto
+*.gbs
+*.gtp
+*.gbp
+*.gm1
+*.pos
+*.rpt
+*.map
+*.csv
+*.bom
+*.xml
+*.pdf
+
+# Ignore plot and export folders
+/fabrication/
+/outputs/
+/plots/
+/gerbers/
+/manufacturing/
+/build/
+/export/
+
+# Ignore KiCad backup folders (v8+)
+*~backup*/
+*~archive*/
+
+# Ignore Python virtual environment and OS junk files
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+
+# Ignore temporary simulation or project files
+sim/
+temp/
+tmp/
+
+# Allow main KiCad project files
+!*.pro
+!*.kicad_pro
+!*.kicad_sch
+!*.kicad_pcb
+!*.kicad_sym
+!*.kicad_mod
+!*.pretty/
+!*.lib
+!*.dcm
+!*.3dshapes/
