@@ -1,5 +1,6 @@
-
 **NE5532 AUDIO AMPLIFIER PROJECT**
+
+![1761037054420](image/Readme/1761037054420.png)
 
 A compact stereo audio amplifier built around the NE5532 dual low-noise op-amp, designed for clean pre-amplification of line-level audio signals.
 
